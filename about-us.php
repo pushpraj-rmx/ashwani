@@ -310,7 +310,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Include jquery-countdown js -->
   <script src="assets/js/countdown.min.js"></script>
 
-  <!-- Include slick js -->
+  <!-- Include slick js  k-->
   <script src="assets/js/slick.min.js"></script>
 
   <!-- Include custom js -->
