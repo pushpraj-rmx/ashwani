@@ -312,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Include slick js  k-->
   <script src="assets/js/slick.min.js"></script>
-
+<!--ndsknfndf--->
   <!-- Include custom js -->
   <script src="assets/js/custom.js"></script>
   <script>
