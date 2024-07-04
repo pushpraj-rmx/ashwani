@@ -195,7 +195,7 @@
                       ">
                     <div class="card-body mb-5">
                       <h2 class="card-title">Garbadhan Sanskar</h2>
-                      <p class="card-text">
+                      <p class="card-text " id="text1">
                         At Ashwani Ayurveda clinic, we provide comprehensive
                         Garbhadhan Sanskar services so that women get the best
                         treatment during their pregnancy journey. GarbaDan
@@ -215,6 +215,7 @@
                         ensure that they get necessary support guidance
                         treatments during their pregnancy and beyond.
                       </p>
+                      <button id="readMoreBtn1">Read more</button>
                     </div>
                   </div>
                   <div class="col-md-6" style="
@@ -245,7 +246,7 @@
                       ">
                     <div class="card-body">
                       <h2 class="card-title">Panchkarma</h2>
-                      <p class="card-text">
+                      <p class="card-text " id="text2">
                         Ashwani Ayurveda clinic provides specialized
                         Panchkarma which is an ancient Ayurvedic therapy that
                         detoxifies and rejuvenates the body. Panchkarma has
@@ -267,6 +268,7 @@
                         your mind becomes calm and your nervous system gets
                         balanced.
                       </p>
+                      <button id="readMoreBtn2">Read more</button>
                     </div>
                   </div>
                 </div>

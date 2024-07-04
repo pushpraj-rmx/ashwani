@@ -46,26 +46,47 @@
         -webkit-box-orient: vertical;
         text-overflow: ellipsis;
     }
-
-    .desktop #text {
-        -webkit-line-clamp: 5;
-        /* Number of lines to show on desktop */
+    #text1{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
     }
+
+    #text2{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+    }
+
+
 
     .mobile #text {
         -webkit-line-clamp: 5;
         /* Number of lines to show on mobile */
     }
 
+    .mobile #text1 {
+        -webkit-line-clamp: 5;
+        /* Number of lines to show on mobile */
+    }
+    .mobile #text2 {
+        -webkit-line-clamp: 5;
+        /* Number of lines to show on mobile */
+    }
     .show-more {
-        -webkit-line-clamp: unset;
+        -webkit-line-clamp:100;
+        height: 400px;
     }
 
     /* Media queries for applying classes based on screen size */
     @media (min-width: 600px) {
         body.desktop {
             /* Add styles if needed */
+            
         }
+        
     }
 
     @media (max-width: 599px) {

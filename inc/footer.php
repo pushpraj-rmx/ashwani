@@ -27,6 +27,60 @@
             readMoreBtn.textContent = text.classList.contains('show-more') ? 'Read less' : 'Read more';
         });
     });
+    document.addEventListener('DOMContentLoaded', function() {
+        const readMoreBtn1 = document.getElementById('readMoreBtn1');
+        const text1 = document.getElementById('text1');
+        const body = document.body;
+
+        // Add appropriate class based on screen size
+        function updateBodyClass() {
+            if (window.innerWidth >= 600) {
+                body.classList.add('desktop');
+                body.classList.remove('mobile');
+            } else {
+                body.classList.add('mobile');
+                body.classList.remove('desktop');
+            }
+        }
+
+        // Initial class update
+        updateBodyClass();
+
+        // Update class on window resize
+        window.addEventListener('resize', updateBodyClass); 
+
+        readMoreBtn1.addEventListener('click', function() {
+            text1.classList.toggle('show-more');
+            readMoreBtn1.textContent = text1.classList.contains('show-more') ? 'Read less' : 'Read more';
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        const readMoreBtn2 = document.getElementById('readMoreBtn2');
+        const text2 = document.getElementById('text2');
+        const body = document.body;
+
+        // Add appropriate class based on screen size
+        function updateBodyClass() {
+            if (window.innerWidth >= 600) {
+                body.classList.add('desktop');
+                body.classList.remove('mobile');
+            } else {
+                body.classList.add('mobile');
+                body.classList.remove('desktop');
+            }
+        }
+
+        // Initial class update
+        updateBodyClass();
+
+        // Update class on window resize
+        window.addEventListener('resize', updateBodyClass); 
+
+        readMoreBtn2.addEventListener('click', function() {
+            text2.classList.toggle('show-more');
+            readMoreBtn2.textContent = text2.classList.contains('show-more') ? 'Read less' : 'Read more';
+        });
+    });
 </script>
 
 <footer class="bg -2 footer_section position-relative">
