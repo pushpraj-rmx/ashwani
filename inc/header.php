@@ -82,11 +82,15 @@
 
     /* Media queries for applying classes based on screen size */
     @media (min-width: 600px) {
-        body.desktop {
-            /* Add styles if needed */
-            
-        }
-        
+        body.desktop 
+
+
+         #readMoreBtn,
+         #readMoreBtn1,
+         #readMoreBtn2 {
+        display:none !important;
+    }
+   
     }
 
     @media (max-width: 599px) {
